@@ -38,14 +38,15 @@ class ViewDraw(context: Context, attr: AttributeSet) : View(context, attr) {
 
     init {
         paint = Paint(Paint.DITHER_FLAG)
-        paint.color = Color.parseColor(paintcolor)
-        paint.style = Paint.Style.STROKE
-        paint.isAntiAlias = true
 
-        paint.strokeWidth = strokeWidth
-        paint.strokeJoin = Paint.Join.ROUND
-        paint.strokeCap = Paint.Cap.ROUND
-
+        paint.apply {
+            color = Color.parseColor(paintcolor)
+            style = Paint.Style.STROKE
+            isAntiAlias = true
+            strokeWidth = strokeWidth
+            strokeJoin = Paint.Join.ROUND
+            strokeCap = Paint.Cap.ROUND
+        }
     }
 
     companion object {
