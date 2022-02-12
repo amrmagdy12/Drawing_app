@@ -2,4 +2,4 @@
 
 ## Simple Android Drawing app  
 
-![](app_demo.mp4)
+![](app_demo.gif)
