@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="color_array">
+
+        <item >#FF03DAC5</item>
+        <item >#FF660000</item>
+        <item >#FF6200EE</item>
+        <item >#FFBB86FC</item>
+        <item >#0E36C5</item>
+        <item >#14C50E</item>
+        <item >#EAB106</item>
+
+    </string-array>
+
+</resources>
